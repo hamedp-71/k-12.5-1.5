@@ -94,7 +94,7 @@ proxies:
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "QGAWKwwBJ2obTIUlIKkju2J5HIXZYJOcpOZSjEAg1nI="
-    server: 188.114.96.89
+    server: 188.114.97.89
     port: 987
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
@@ -117,7 +117,7 @@ proxies:
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "IE/s0zaqQpK6XVYBzZtz0SHMhumKX9dQe2xDCB0dMFc="
-    server: 188.114.98.142
+    server: 188.114.96.142
     port: 1018
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
@@ -140,8 +140,8 @@ proxies:
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "IBZHXF1Zbm6c57O0koC6mr+JxaGW7EPoF+z/fRbKHX8="
-    server: 188.114.98.139
-    port: 968
+    server: 188.114.97.67
+    port: 1074
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: [111, 20, 196]
@@ -163,8 +163,8 @@ proxies:
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "+GSbZi0NnpK3sBtPmqcvbTLsHWx+cux96ohn6qrF+mA="
-    server: 188.114.96.230
-    port: 908
+    server: 188.114.97.149
+    port: 1843
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: [118, 40, 148]
@@ -186,7 +186,7 @@ proxies:
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "+O3tJT5PUgzpF5hesR7ClqJC5QJ78PfYN275hLehZW0="
-    server: 188.114.99.24
+    server: 188.114.98.24
     port: 903
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
@@ -209,7 +209,7 @@ proxies:
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "6MbMTFuAe1uJJEtgN2UsYJ13L7z1kBWcFKPJqTX0JHw="
-    server: 188.114.97.218
+    server: 188.114.98.218
     port: 908
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
@@ -232,80 +232,11 @@ proxies:
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "WFM0Tg93Tmm9BAgOoKJre3kpagIJGqs8X0o0G8UyakA="
-    server: 188.114.96.102
+    server: 188.114.97.102
     port: 903
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: [123, 55, 31]
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇮🇷 hamedp71-8"
-    type: wireguard
-    ip: 172.16.0.2/32
-    private-key: "oJyILsu+ynZaiauCWCi/CEQF6Ndu8L92XDGq9v4fo3g="
-    server: 188.114.96.84
-    port: 880
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: [155, 155, 218]
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇮🇷 hamedp71-9"
-    type: wireguard
-    ip: 172.16.0.2/32
-    private-key: "gM74WrM/HEP1pdpF3O+PA/GMp7estvHh9dGhmqopHGM="
-    server: 188.114.96.247
-    port: 955
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: [223, 248, 35]
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇮🇷 hamedp71-10"
-    type: wireguard
-    ip: 172.16.0.2/32
-    private-key: "UO6nSevQRKVntgPp1ro+CpWHrTo4viBG+0ARinBus0E="
-    server: 188.114.96.32
-    port: 955
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: [125, 208, 143]
     udp: true
     mtu: 1280
     dialer-proxy: ""
@@ -325,8 +256,8 @@ proxies:
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
     private-key: "QGAWKwwBJ2obTIUlIKkju2J5HIXZYJOcpOZSjEAg1nI="
-    server: "[2606:4700:d1::61de:a81a:4a28:2364]"
-    port: 1074
+    server: "[2606:4700:d0::8be4:d75d:e714:abb1]"
+    port: 987
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: [104, 158, 39]
@@ -349,8 +280,8 @@ proxies:
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
     private-key: "IE/s0zaqQpK6XVYBzZtz0SHMhumKX9dQe2xDCB0dMFc="
-    server: "[2606:4700:d1::5d84:7228:8189:e11b]"
-    port: 859
+    server: "[2606:4700:d1::f9fa:a95b:8ee9:868e]"
+    port: 1074
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: [234, 22, 171]
@@ -373,59 +304,11 @@ proxies:
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::3
     private-key: "IBZHXF1Zbm6c57O0koC6mr+JxaGW7EPoF+z/fRbKHX8="
-    server: "[2606:4700:d1::77ae:8849:a0fc:5a07]"
-    port: 859
+    server: "[2606:4700:d0::15ed:af59:3973:eec]"
+    port: 1018
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: [111, 20, 196]
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇮🇷ipv6 hamedp71-14"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::3
-    private-key: "+GSbZi0NnpK3sBtPmqcvbTLsHWx+cux96ohn6qrF+mA="
-    server: "[2606:4700:d0::8be4:d75d:e714:abb1]"
-    port: 987
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: [118, 40, 148]
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇮🇷ipv6 hamedp71-15"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::3
-    private-key: "+O3tJT5PUgzpF5hesR7ClqJC5QJ78PfYN275hLehZW0="
-    server: "[2606:4700:d0::2ebd:1edb:d65a:14b9]"
-    port: 1387
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: [138, 231, 210]
     udp: true
     mtu: 1280
     dialer-proxy: ""
@@ -454,14 +337,9 @@ proxy-groups:
       - "🇮🇷 hamedp71-5"
       - "🇮🇷 hamedp71-6"
       - "🇮🇷 hamedp71-7"
-      - "🇮🇷 hamedp71-8"
-      - "🇮🇷 hamedp71-9"
-      - "🇮🇷 hamedp71-10"
-      - "🇮🇷ipv6 hamedp71-11"
-      - "🇮🇷ipv6 hamedp71-12"
-      - "🇮🇷ipv6 hamedp71-13"
-      - "🇮🇷ipv6 hamedp71-14"
-      - "🇮🇷ipv6 hamedp71-15"
+      - "🇮🇷ipv6 hamedp71-8"
+      - "🇮🇷ipv6 hamedp71-9"
+      - "🇮🇷ipv6 hamedp71-10"
 
   - name: "🚀 انتخاب خودکار (بهترین)"
     type: url-test
@@ -478,14 +356,9 @@ proxy-groups:
       - "🇮🇷 hamedp71-5"
       - "🇮🇷 hamedp71-6"
       - "🇮🇷 hamedp71-7"
-      - "🇮🇷 hamedp71-8"
-      - "🇮🇷 hamedp71-9"
-      - "🇮🇷 hamedp71-10"
-      - "🇮🇷ipv6 hamedp71-11"
-      - "🇮🇷ipv6 hamedp71-12"
-      - "🇮🇷ipv6 hamedp71-13"
-      - "🇮🇷ipv6 hamedp71-14"
-      - "🇮🇷ipv6 hamedp71-15"
+      - "🇮🇷ipv6 hamedp71-8"
+      - "🇮🇷ipv6 hamedp71-9"
+      - "🇮🇷ipv6 hamedp71-10"
 
 rule-providers:
   ir:
